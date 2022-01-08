@@ -14,7 +14,7 @@ Here are the key points that drove me to create this simple, yet useful tool (at
 
 ## Installation
 
-Download the [latest release archive](/releases/latest)
+Download the [latest release archive](https://github.com/EnochMtzR/nuget-search/releases/latest)
 
 ```bash
 unzip nuget-search-1.0.zip -d nuget-search
