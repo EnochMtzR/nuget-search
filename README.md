@@ -14,24 +14,17 @@ Here are the key points that drove me to create this simple, yet useful tool (at
 
 ## Installation
 
-**Note:** don't forget to replace `<installation_directory>` with the directory were you want to install this.
+Download the [latest release archive](/releases/latest)
 
 ```bash
-# Pre-installation:
-git clone https://github.com/EnochMtzR/nuget-search.git
+unzip nuget-search-1.0.zip -d nuget-search
 cd nuget-search
-
-# Installing:
-pip install -r requirements.txt
-chmod +x nuget-search.py
-mv nuget-search.py <installation_directory>/nuget-search
-
-# Post installation cleaning:
-cd ../
-rm -rf nuget-search
+chmod +x install*
 ```
 
-if you want to execute the tool anywhere on your system. you can set your `installation_directory` to a folder included in you `$PATH` environment variable or add your desired folder to it.
+If you want to install the bleeding edge unstable release execute `./install_latest.sh`
+
+If you want to install the downloaded release just execute `./install.sh`
 
 ## Usage
 
