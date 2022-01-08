@@ -17,11 +17,18 @@ Here are the key points that drove me to create this simple, yet useful tool (at
 **Note:** don't forget to replace `<installation_directory>` with the directory were you want to install this.
 
 ```bash
+# Pre-installation:
 git clone https://github.com/EnochMtzR/nuget-search.git
 cd nuget-search
+
+# Installing:
 pip install -r requirements.txt
 chmod +x nuget-search.py
 mv nuget-search.py <installation_directory>/nuget-search
+
+# Post installation cleaning:
+cd ../
+rm -rf nuget-search
 ```
 
 if you want to execute the tool anywhere on your system. you can set your `installation_directory` to a folder included in you `$PATH` environment variable or add your desired folder to it.
